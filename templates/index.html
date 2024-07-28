@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="{{ get_locale() }}">
+<head>
+    <meta charset="UTF-8">
+    <title>{{ gettext('Welcome') }}</title>
+</head>
+<body>
+    <h1>{{ gettext('Welcome to my multilingual website') }}</h1>
+    <p>{{ gettext('This is a sample text.') }}</p>
+    <p>Locale: {{ session['language'] }}</p>
+    <a href="{{ url_for('set_language', language='en') }}">English</a>
+    <a href="{{ url_for('set_language', language='ko') }}">한국어</a>
+    <a href="{{ url_for('set_language', language='zh') }}">中文</a>
+</body>
+</html>

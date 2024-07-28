@@ -1,0 +1,31 @@
+# Chinese translations for PROJECT.
+# Copyright (C) 2024 ORGANIZATION
+# This file is distributed under the same license as the PROJECT project.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2024.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PROJECT VERSION\n"
+"Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
+"POT-Creation-Date: 2024-07-28 22:12+0900\n"
+"PO-Revision-Date: 2024-07-28 22:14+0900\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: zh\n"
+"Language-Team: zh <LL@li.org>\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.15.0\n"
+
+#: templates/index.html:5
+msgid "Welcome"
+msgstr "欢迎"
+
+#: templates/index.html:8
+msgid "Welcome to my multilingual website"
+msgstr "欢迎来到我的多语言网站"
+
+#: templates/index.html:9
+msgid "This is a sample text."
+msgstr "这是一个示例文本。"
